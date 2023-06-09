@@ -7,6 +7,7 @@ if(window.api.apiVersion == "v2"){
       type: "plugin", // has literally 0 use right now
       permissions: [
         "WRITE_LEVEL",
+        "ADMIN",
         "MODIFY_ACHIEVEMENTS"
       ],
       onReady: (res) => {
